@@ -1,0 +1,16 @@
+PODS:
+  - SNColorHex (0.1.0)
+
+DEPENDENCIES:
+  - SNColorHex (from `../`)
+
+EXTERNAL SOURCES:
+  SNColorHex:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SNColorHex: 5ec5142a179f767b74394b2080783eb663cf6dfb
+
+PODFILE CHECKSUM: cb3703ee0abba58892dc2f41306b7fc23cf72d02
+
+COCOAPODS: 1.1.1

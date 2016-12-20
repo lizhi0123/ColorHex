@@ -1,0 +1,6 @@
+framework module SNColorHex {
+  umbrella header "SNColorHex-umbrella.h"
+
+  export *
+  module * { export * }
+}
