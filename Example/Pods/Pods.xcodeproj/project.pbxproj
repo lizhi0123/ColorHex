@@ -15,6 +15,12 @@
 		58F89C8DED90E1D8E0CA29C8D5CB5F68 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D16500920D84C0C73693B53B06B19E /* ReplaceMe.m */; };
 		67CCC0C2067B05A86D35B6B9E229F1D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		70D74B275A0DAFC95A55F779A2672BE1 /* Pods-SNColorHex_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0E3E7131D4E2CEAC2D500810E9F1E1 /* Pods-SNColorHex_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D16615A1E08D3E6004C30C8 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1661581E08D3E6004C30C8 /* UIColor+Hex.h */; };
+		9D16615B1E08D3E6004C30C8 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1661581E08D3E6004C30C8 /* UIColor+Hex.h */; };
+		9D16615C1E08D3E6004C30C8 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1661581E08D3E6004C30C8 /* UIColor+Hex.h */; };
+		9D16615D1E08D3E6004C30C8 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1661591E08D3E6004C30C8 /* UIColor+Hex.m */; };
+		9D16615E1E08D3E6004C30C8 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1661591E08D3E6004C30C8 /* UIColor+Hex.m */; };
+		9D16615F1E08D3E6004C30C8 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1661591E08D3E6004C30C8 /* UIColor+Hex.m */; };
 		C277AFAEB39ABCE59AE2D15B29175F90 /* Pods-SNColorHex_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 750ADB9E71FBB711F282BFCFB28030AA /* Pods-SNColorHex_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAD0DC1470D799A3C283F8A6EA2815BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -37,29 +43,31 @@
 		0B9C2F40F71EC1E660348A5DBF1FC48C /* SNColorHex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNColorHex.xcconfig; sourceTree = "<group>"; };
 		11577F7A68F7CC5D7BD8059F58E6C283 /* Pods-SNColorHex_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNColorHex_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		16D2254476D95A533BEB21C653367EB4 /* SNColorHex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNColorHex-prefix.pch"; sourceTree = "<group>"; };
-		2919869566BEC35619F159C14EB63086 /* SNColorHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SNColorHex.framework; path = SNColorHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38B56A3BA3CEF4B27C77546184D15E53 /* SNColorHex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SNColorHex.modulemap; sourceTree = "<group>"; };
+		2919869566BEC35619F159C14EB63086 /* SNColorHex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNColorHex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B56A3BA3CEF4B27C77546184D15E53 /* SNColorHex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SNColorHex.modulemap; sourceTree = "<group>"; };
 		39915083667094F263F0EE146EDBB2A4 /* Pods-SNColorHex_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNColorHex_Tests-dummy.m"; sourceTree = "<group>"; };
 		3B51E439186AEF002167912CB08FC062 /* SNColorHex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNColorHex-dummy.m"; sourceTree = "<group>"; };
 		3EB9DF0118005F0E76989CB366BE3D9A /* Pods-SNColorHex_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNColorHex_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		45796E9070810F791FE85F67F06100B4 /* Pods-SNColorHex_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SNColorHex_Example.modulemap"; sourceTree = "<group>"; };
+		45796E9070810F791FE85F67F06100B4 /* Pods-SNColorHex_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SNColorHex_Example.modulemap"; sourceTree = "<group>"; };
 		67CBA4CE100B61EED6E1D39722A6FAE1 /* Pods-SNColorHex_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNColorHex_Example.release.xcconfig"; sourceTree = "<group>"; };
 		750ADB9E71FBB711F282BFCFB28030AA /* Pods-SNColorHex_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNColorHex_Example-umbrella.h"; sourceTree = "<group>"; };
-		7FA2941DD43F4700B209615842257E7F /* Pods-SNColorHex_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SNColorHex_Tests.modulemap"; sourceTree = "<group>"; };
+		7FA2941DD43F4700B209615842257E7F /* Pods-SNColorHex_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SNColorHex_Tests.modulemap"; sourceTree = "<group>"; };
 		83E62F5470DA441F914A8CDD81E78816 /* Pods-SNColorHex_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNColorHex_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		85271453BCA330FFD8B9012D9F6F7636 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		948AFCEFB66FA2A355E4AED196C83BDB /* Pods-SNColorHex_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNColorHex_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D1661581E08D3E6004C30C8 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		9D1661591E08D3E6004C30C8 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		A24BBB1F3B998C3F610C14445DE8FC84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC4074812EEF192FB7B147CBEC1ACD1C /* Pods-SNColorHex_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNColorHex_Example-dummy.m"; sourceTree = "<group>"; };
 		B1182DBA2771D0CB54402E5A3E471301 /* SNColorHex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNColorHex-umbrella.h"; sourceTree = "<group>"; };
-		CAEEE00FD4E652021352A20387859484 /* Pods_SNColorHex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNColorHex_Tests.framework; path = "Pods-SNColorHex_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEEE00FD4E652021352A20387859484 /* Pods_SNColorHex_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNColorHex_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB959302A2F380236CB337846BBB8E57 /* Pods-SNColorHex_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNColorHex_Tests-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D0714E644CD6ECF73F4535F577A98816 /* Pods-SNColorHex_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNColorHex_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D2D16500920D84C0C73693B53B06B19E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		DA3BF3E0B45188A43186A652457D9C9C /* Pods-SNColorHex_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNColorHex_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DFC68D6D28064616C66FFE1096A3557D /* Pods_SNColorHex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNColorHex_Example.framework; path = "Pods-SNColorHex_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC68D6D28064616C66FFE1096A3557D /* Pods_SNColorHex_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNColorHex_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA07C06EF4B8560D820A7E1883162BBD /* Pods-SNColorHex_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNColorHex_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FA59FD5759F362693A262D270491A8C3 /* Pods-SNColorHex_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNColorHex_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,9 +199,10 @@
 		BA586FCBCD1AC3F7E01864C5BACAA1E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9D1661581E08D3E6004C30C8 /* UIColor+Hex.h */,
+				9D1661591E08D3E6004C30C8 /* UIColor+Hex.m */,
 				D2D16500920D84C0C73693B53B06B19E /* ReplaceMe.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -210,7 +219,6 @@
 			children = (
 				BA586FCBCD1AC3F7E01864C5BACAA1E3 /* Classes */,
 			);
-			name = SNColorHex;
 			path = SNColorHex;
 			sourceTree = "<group>";
 		};
@@ -231,6 +239,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D16615B1E08D3E6004C30C8 /* UIColor+Hex.h in Headers */,
 				70D74B275A0DAFC95A55F779A2672BE1 /* Pods-SNColorHex_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D16615A1E08D3E6004C30C8 /* UIColor+Hex.h in Headers */,
 				C277AFAEB39ABCE59AE2D15B29175F90 /* Pods-SNColorHex_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +257,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D16615C1E08D3E6004C30C8 /* UIColor+Hex.h in Headers */,
 				4D38A09315C7C7387E6E3CD1E801419D /* SNColorHex-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12EFD96C7AB71D7ED3E6483E16DE1E77 /* Pods-SNColorHex_Tests-dummy.m in Sources */,
+				9D16615E1E08D3E6004C30C8 /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58F89C8DED90E1D8E0CA29C8D5CB5F68 /* ReplaceMe.m in Sources */,
+				9D16615F1E08D3E6004C30C8 /* UIColor+Hex.m in Sources */,
 				0DE44C81F5C4DC382BD3332735D9956C /* SNColorHex-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FA392E3A08901523FBF1DD07100DD62 /* Pods-SNColorHex_Example-dummy.m in Sources */,
+				9D16615D1E08D3E6004C30C8 /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
